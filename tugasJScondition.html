@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas JS Condition</title>
+</head>
+<body>
+    <label for="userInput">Masukkan Nilai x:</label>
+    <input type="number" id="x"><br>
+    <label for="userInput">Masukkan Nilai y:</label>
+    <input type="number" id="y"><br>
+    <button onclick="tampilkanNilai()">Oke</button>
+    <p id = "pesan"></p>
+    <script>
+        function tampilkanNilai() {
+            var nilai = document.getElementById("x").value;
+            var nilai2 = document.getElementById("y").value;
+            if (nilai > nilai2){
+                document.getElementById("pesan").innerHTML = "Hore saya bisa !";
+            } else { document.getElementById("pesan").innerHTML = "Hore saya tidak bisa !";}
+        };
+
+    </script>
+</body>
+</html>
