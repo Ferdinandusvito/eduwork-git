@@ -1,0 +1,46 @@
+dbug Appium Parsed manifest file at C:\Users\Lenovo\.appium\node_modules\.cache\appium\extensions.yaml: {
+dbug Appium   "drivers": {
+dbug Appium     "uiautomator2": {
+dbug Appium       "pkgName": "appium-uiautomator2-driver",
+dbug Appium       "version": "3.7.2",
+dbug Appium       "installType": "npm",
+dbug Appium       "installSpec": "uiautomator2",
+dbug Appium       "installPath": "C:\\Users\\Lenovo\\.appium\\node_modules\\appium-uiautomator2-driver",
+dbug Appium       "appiumVersion": "^2.4.1",
+dbug Appium       "automationName": "UiAutomator2",
+dbug Appium       "platformNames": [
+dbug Appium         "Android"
+dbug Appium       ],
+dbug Appium       "mainClass": "AndroidUiautomator2Driver",
+dbug Appium       "scripts": {
+dbug Appium         "reset": "scripts/reset.js"
+dbug Appium       },
+dbug Appium       "doctor": {
+dbug Appium         "checks": [
+dbug Appium           "./build/lib/doctor/required-checks.js",
+dbug Appium           "./build/lib/doctor/optional-checks.js"
+dbug Appium         ]
+dbug Appium       }
+dbug Appium     }
+dbug Appium   },
+dbug Appium   "plugins": {},
+dbug Appium   "schemaRev": 4
+dbug Appium }
+info Appium Welcome to Appium v2.5.4
+info Appium Non-default server args:
+info Appium { basePath: [32m'/wd/hub'[39m, port: [33m57271[39m }
+dbug Appium The APPIUM_HOME environment variable: C:\Users\Lenovo\.appium
+info Appium Attempting to load driver uiautomator2...
+dbug Appium Requiring driver at C:\Users\Lenovo\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+dbug Appium AndroidUiautomator2Driver has been successfully loaded in 0.907s
+info Appium Appium REST http interface listener started on http://0.0.0.0:57271/wd/hub
+info Appium You can provide the following URLs in your client code to connect to this server:
+info Appium 	http://192.168.7.183:57271/wd/hub
+info Appium 	http://127.0.0.1:57271/wd/hub (only accessible from the same host)
+info Appium Available drivers:
+info Appium   - uiautomator2@3.7.2 (automationName 'UiAutomator2')
+info Appium No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+info Appium Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+info Appium The 'uiautomator2' driver was installed and matched caps.
+info Appium Will require it at C:\Users\Lenovo\.appium\node_modules\appium-uiautomator2-driver
+dbug Appium Requiring driver at C:\Users\Lenovo\.appium\node_modules\appium-uiautomator2-driver\build\index.js

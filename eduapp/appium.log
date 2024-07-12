@@ -1,0 +1,229 @@
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;16m[AppiumDriver@deb4][0m Calling AppiumDriver.getStatus() with args: []
+[38;5;16m[AppiumDriver@deb4][0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.5.4"}}
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m8 ms - 110[39m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;16m[AppiumDriver@deb4][0m Calling AppiumDriver.getStatus() with args: []
+[38;5;16m[AppiumDriver@deb4][0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.5.4"}}
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 110[39m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appium:systemPort":57287,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":false,"appium:platformVersion":"13","appium:noReset":true,"appium:udid":"102682537E009728","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"INFINIX Infinix X678B (Android 13)","platformName":"Android","appium:app":"C:\\Users\\Lenovo\\Documents\\VITO\\KATALON\\eduapp\\androidApp\\Calculator.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Lenovo\\Documents\\VITO\\KATALON\\eduapp\\androidApp\\Calculator.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"INFINIX Infinix X678B (Android 13)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"13","appium:systemPort":57287,"appium:udid":"102682537E009728","platformName":"android"}]}}[39m
+[38;5;16m[AppiumDriver@deb4][0m Calling AppiumDriver.createSession() with args: [{"appium:systemPort":57287,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":false,"appium:platformVersion":"13","appium:noReset":true,"appium:udid":"102682537E009728","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"INFINIX Infinix X678B (Android 13)","platformName":"Android","appium:app":"C:\\Users\\Lenovo\\Documents\\VITO\\KATALON\\eduapp\\androidApp\\Calculator.apk"},null,{"firstMatch":[{"appium:app":"C:\\Users\\Lenovo\\Documents\\VITO\\KATALON\\eduapp\\androidApp\\Calculator.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"INFINIX Infinix X678B (Android 13)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"13","appium:systemPort":57287,"appium:udid":"102682537E009728","platformName":"android"}]}]
+[38;5;16m[AppiumDriver@deb4][0m Event 'newSessionRequested' logged at 1720796308010 (21:58:28 GMT+0700 (Western Indonesia Time))
+[38;5;32m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;32m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;16m[AppiumDriver@deb4][0m Appium v2.5.4 creating new AndroidUiautomator2Driver (v3.7.2) session
+[38;5;16m[AppiumDriver@deb4][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@deb4][0m Appium's BaseDriver version is 9.11.2
+[38;5;16m[AppiumDriver@deb4][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.2
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m 
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "android",
+    "appium:app": "C:\\Users\\Lenovo\\Documents\\VITO\\KATALON\\eduapp\\androidApp\\Calculator.apk",
+    "appium:autoGrantPermissions": true,
+    "appium:automationName": "uiautomator2",
+    "appium:deviceName": "INFINIX Infinix X678B (Android 13)",
+    "appium:fullReset": false,
+    "appium:newCommandTimeout": 1800,
+    "appium:noReset": true,
+    "appium:platformVersion": "13",
+    "appium:systemPort": 57287,
+    "appium:udid": "102682537E009728"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Session created with session id: ec6a16df-0884-4049-8413-2bfe3133fb96
+[38;5;64m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium' (newest first):
+[38;5;64m[ADB][0m     C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\build-tools\29.0.3
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe'
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 start-server'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Retrieving device list
+[38;5;64m[ADB][0m Trying to find connected Android devices
+[38;5;64m[ADB][0m Getting connected devices
+[38;5;64m[ADB][0m Connected devices: [{"udid":"102682537E009728","state":"device"}]
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Using device: 102682537E009728
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe'
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 start-server'
+[38;5;64m[ADB][0m Setting device id to 102682537E009728
+[38;5;32m[BaseDriver][0m Using local app 'C:\Users\Lenovo\Documents\VITO\KATALON\eduapp\androidApp\Calculator.apk'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Checking whether app is actually present
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell getprop ro.build.version.sdk'
+[38;5;64m[ADB][0m Current device property 'ro.build.version.sdk': 33
+[38;5;64m[ADB][0m Getting device platform version
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell getprop ro.build.version.release'
+[38;5;64m[ADB][0m Current device property 'ro.build.version.release': 13
+[38;5;64m[ADB][0m Device API level: 33
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Relaxing hidden api policy
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Parsing package and activity from app manifest
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Pushing settings apk to the device...
+[38;5;64m[ADB][0m Getting package info for 'io.appium.settings'
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell dumpsys package io.appium.settings'
+[38;5;64m[ADB][0m Package name: 'com.google.android.calculator'
+[38;5;64m[ADB][0m Main activity name: 'com.android.calculator2.Calculator'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Parsed package and activity are: com.google.android.calculator/com.android.calculator2.Calculator
+[38;5;64m[ADB][0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.12.4' >= '5.12.4')
+[38;5;64m[ADB][0m There is no need to install/upgrade 'C:\Users\Lenovo\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell dumpsys activity services io.appium.settings'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m io.appium.settings is already running. There is no need to reset its permissions.
+[38;5;80m[Logcat][0m Starting logs capture with command: C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\node_modules\\appium\\platform-tools\\adb.exe -P 5037 -s 102682537E009728 logcat -v threadtime
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell appops set io.appium.settings android:mock_location allow'
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell "[ -e '/data/local/tmp/mock_apps.json' ] && echo __PASS__"'
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell cat /data/local/tmp/mock_apps.json'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Forwarding UiAutomator2 Server port 6790 to local port 57287
+[38;5;64m[ADB][0m Forwarding system: 57287 to device: 6790
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 forward tcp:57287 tcp:6790'
+[38;5;64m[ADB][0m Getting package info for 'io.appium.uiautomator2.server'
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell dumpsys package io.appium.uiautomator2.server'
+[38;5;64m[ADB][0m Getting install status for io.appium.uiautomator2.server.test
+[38;5;64m[ADB][0m Getting install status for com.google.android.calculator
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell cmd package list packages'
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell cmd package list packages'
+[38;5;64m[ADB][0m 'io.appium.uiautomator2.server.test' is installed
+[38;5;64m[ADB][0m 'com.google.android.calculator' is not installed
+[38;5;64m[ADB][0m Checking app cert for C:\Users\Lenovo\Documents\VITO\KATALON\eduapp\androidApp\Calculator.apk
+[38;5;64m[ADB][0m Using 'apksigner.jar' from 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\build-tools\29.0.3\lib\apksigner.jar'
+[38;5;64m[ADB][0m Starting apksigner: C:\\Users\\Lenovo\\.katalon\\packages\\Katalon_Studio_Free_Windows_64-9.5.0\\Katalon_Studio_Free_Windows_64-9.5.0\\jre\\bin\\java.exe -Xmx1024M -Xss1m -jar C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\node_modules\\appium\\build-tools\\29.0.3\\lib\\apksigner.jar verify --print-certs C:\\Users\\Lenovo\\Documents\\VITO\\KATALON\\eduapp\\androidApp\\Calculator.apk
+[38;5;64m[ADB][0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('7.0.18' >= '7.0.18')
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Server packages status: [{"installState":"sameVersionInstalled","appPath":"C:\\Users\\Lenovo\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v7.0.18.apk","appId":"io.appium.uiautomator2.server"},{"installState":"sameVersionInstalled","appPath":"C:\\Users\\Lenovo\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Server packages are not going to be (re)installed
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Waiting up to 30000ms for services to be available
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell pm list instrumentation'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;64m[ADB][0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: CN=calculator_google, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+Signer #1 certificate SHA-256 digest: 90e8b84c91ae47530018af7fc35a943716fc8d2271f03548a1833be0166e2066
+Signer #1 certificate SHA-1 digest: af24b7f3eff9d97ae6d8a84664e0e98888636110
+Signer #1 certificate MD5 digest: b9620ff646b8fa4b575bce9937d188b8
+
+[38;5;64m[ADB][0m 'C:\Users\Lenovo\Documents\VITO\KATALON\eduapp\androidApp\Calculator.apk' is signed with a non-default certificate
+[38;5;64m[ADB][0m Getting package info for 'com.google.android.calculator'
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell dumpsys package com.google.android.calculator'
+[38;5;64m[ADB][0m App 'C:\Users\Lenovo\Documents\VITO\KATALON\eduapp\androidApp\Calculator.apk' is not installed
+[38;5;64m[ADB][0m Installing 'C:\Users\Lenovo\Documents\VITO\KATALON\eduapp\androidApp\Calculator.apk'
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 help'
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 features'
+[38;5;64m[ADB][0m The application at 'C:\Users\Lenovo\Documents\VITO\KATALON\eduapp\androidApp\Calculator.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 install -g C:\Users\Lenovo\Documents\VITO\KATALON\eduapp\androidApp\Calculator.apk'
+[38;5;64m[ADB][0m The installation of 'Calculator.apk' took 923ms
+[38;5;64m[ADB][0m Install command stdout: Performing Streamed Install
+Success
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Performing shallow cleanup of automation leftovers
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m No obsolete sessions have been detected (socket hang up)
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell am force-stop io.appium.uiautomator2.server.test'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Starting UIAutomator2 server 7.0.18
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Using UIAutomator2 server from 'C:\Users\Lenovo\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.18.apk' and test from 'C:\Users\Lenovo\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;64m[ADB][0m Creating ADB subprocess with args: ["-P","5037","-s","102682537E009728","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Matched '/status' to command name 'getStatus'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Proxying [GET /status] to [GET http://127.0.0.1:57287/status] with no body
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m [Instrumentation] 
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Matched '/status' to command name 'getStatus'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Proxying [GET /status] to [GET http://127.0.0.1:57287/status] with no body
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Matched '/status' to command name 'getStatus'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Proxying [GET /status] to [GET http://127.0.0.1:57287/status] with no body
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Matched '/status' to command name 'getStatus'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Proxying [GET /status] to [GET http://127.0.0.1:57287/status] with no body
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m The initialization of the instrumentation process took 3194ms
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Matched '/session' to command name 'createSession'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Proxying [POST /session] to [POST http://127.0.0.1:57287/session] with body: {"capabilities":{"firstMatch":[{"platformName":"android","app":"C:\\Users\\Lenovo\\Documents\\VITO\\KATALON\\eduapp\\androidApp\\Calculator.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"102682537E009728","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"13","systemPort":57287,"udid":"102682537E009728","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"C:\\Users\\Lenovo\\Documents\\VITO\\KATALON\\eduapp\\androidApp\\Calculator.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"INFINIX Infinix X678B (Android 13)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"13","systemPort":57287,"udid":"102682537E009728"},"deviceUDID":"102682537E009728","appPackage":"com.google.android.calculator"}],"alwaysMatch":{}}}
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Got response with status 200: {"sessionId":"480da13f-a8f3-418a-8a49-bd744c805b21","value":{"capabilities":{"firstMatch":[{"platformName":"android","app":"C:\\Users\\Lenovo\\Documents\\VITO\\KATALON\\eduapp\\androidApp\\Calculator.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"102682537E009728","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"13","systemPort":57287,"udid":"102682537E009728","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"C:\\Users\\Lenovo\\Documents\\VITO\\KATALON\\eduapp\\androidApp\\Calculator.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"INFINIX Infinix X678B (Android 13)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"13","systemPort":57287,"udid":"102682537E009728"},"deviceUDID":"102682537E009728","appPackage...
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Determined the downstream protocol as 'W3C'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:57287/session/480da13f-a8f3-418a-8a49-bd744c805b21/appium/device/pixel_ratio] with no body
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:57287/session/480da13f-a8f3-418a-8a49-bd744c805b21/appium/device/system_bars] with no body
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Matched '/window/current/size' to command name 'getWindowSize'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:57287/session/480da13f-a8f3-418a-8a49-bd744c805b21/window/current/size] with no body
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:57287/session/480da13f-a8f3-418a-8a49-bd744c805b21/appium/device/info] with no body
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell dumpsys window'
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell dumpsys power'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Got response with status 200: {"sessionId":"480da13f-a8f3-418a-8a49-bd744c805b21","value":3}
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Got response with status 200: {"sessionId":"480da13f-a8f3-418a-8a49-bd744c805b21","value":{"height":2400,"width":1080}}
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Got response with status 200: {"sessionId":"480da13f-a8f3-418a-8a49-bd744c805b21","value":{"statusBar":108}}
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Got response with status 200: {"sessionId":"480da13f-a8f3-418a-8a49-bd744c805b21","value":{"androidId":"d2a7376cb0b89c5a","apiVersion":"33","bluetooth":{"state":"OFF"},"brand":"Infinix","carrierName":"Smartfren","displayDensity":480,"locale":"en_US","manufacturer":"INFINIX","model":"Infinix X678B","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_XCAP,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"smartfren4G","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilities":{"SSID":null,"linkDownBandwidthK...
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Screen already unlocked, doing nothing
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Starting 'com.google.android.calculator/com.android.calculator2.Calculator and waiting for 'com.google.android.calculator/com.android.calculator2.Calculator'
+[38;5;64m[ADB][0m Getting IDs of all 'com.google.android.calculator' processes
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell 'pgrep --help; echo $?''
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell pgrep -f \(\[\[:blank:\]\]\|\^\)com\.google\.android\.calculator\(\[\[:blank:\]\]\|\$\)'
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell am start -W -n com.google.android.calculator/com.android.calculator2.Calculator -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[38;5;64m[ADB][0m Waiting up to 20000ms for activity matching pkg: 'com.google.android.calculator' and activity: 'com.android.calculator2.Calculator' to be focused
+[38;5;64m[ADB][0m Possible activities, to be checked: 'com.android.calculator2.Calculator', 'com.google.android.calculator.com.android.calculator2.Calculator'
+[38;5;64m[ADB][0m Getting focused package and activity
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell dumpsys window displays'
+[38;5;64m[ADB][0m Found package: 'com.google.android.calculator' and fully qualified activity name : 'com.android.calculator2.Calculator'
+[38;5;16m[AppiumDriver@deb4][0m New AndroidUiautomator2Driver session created successfully, session ec6a16df-0884-4049-8413-2bfe3133fb96 added to master session list
+[38;5;16m[AppiumDriver@deb4][0m Event 'newSessionStarted' logged at 1720796315937 (21:58:35 GMT+0700 (Western Indonesia Time))
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Cached the protocol value 'W3C' for the new session ec6a16df-0884-4049-8413-2bfe3133fb96
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Responding to client with driver.createSession() result: {"capabilities":{"platformName":"android","app":"C:\\Users\\Lenovo\\Documents\\VITO\\KATALON\\eduapp\\androidApp\\Calculator.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"102682537E009728","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"13","systemPort":57287,"udid":"102682537E009728","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"C:\\Users\\Lenovo\\Documents\\VITO\\KATALON\\eduapp\\androidApp\\Calculator.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"INFINIX Infinix X678B (Android 13)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"13","systemPort":57287,"udid":"102682537E009728"},"deviceUDID":"102682537E009728","appPackage":"com.google.android.calculator","pixelRatio":"3","statBarHeight":108,"vie...
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m7929 ms - 1280[39m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ec6a16df-0884-4049-8413-2bfe3133fb96[39m [90m{}[39m
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Calling AppiumDriver.getSession() with args: ["ec6a16df-0884-4049-8413-2bfe3133fb96"]
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Getting session details from server to mix in
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Matched '/' to command name 'getSession'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Proxying [GET /] to [GET http://127.0.0.1:57287/session/480da13f-a8f3-418a-8a49-bd744c805b21] with no body
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Got response with status 200: {"sessionId":"480da13f-a8f3-418a-8a49-bd744c805b21","value":{"lastScrollData":null}}
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Responding to client with driver.getSession() result: {"platformName":"android","app":"C:\\Users\\Lenovo\\Documents\\VITO\\KATALON\\eduapp\\androidApp\\Calculator.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"INFINIX Infinix X678B (Android 13)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"13","systemPort":57287,"udid":"102682537E009728","lastScrollData":null}
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/ec6a16df-0884-4049-8413-2bfe3133fb96 [39m[32m200[39m [90m17 ms - 382[39m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ec6a16df-0884-4049-8413-2bfe3133fb96[39m [90m{}[39m
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Calling AppiumDriver.getSession() with args: ["ec6a16df-0884-4049-8413-2bfe3133fb96"]
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Getting session details from server to mix in
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Matched '/' to command name 'getSession'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Proxying [GET /] to [GET http://127.0.0.1:57287/session/480da13f-a8f3-418a-8a49-bd744c805b21] with no body
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Got response with status 200: {"sessionId":"480da13f-a8f3-418a-8a49-bd744c805b21","value":{"lastScrollData":null}}
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Responding to client with driver.getSession() result: {"platformName":"android","app":"C:\\Users\\Lenovo\\Documents\\VITO\\KATALON\\eduapp\\androidApp\\Calculator.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"INFINIX Infinix X678B (Android 13)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformVersion":"13","systemPort":57287,"udid":"102682537E009728","lastScrollData":null}
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/ec6a16df-0884-4049-8413-2bfe3133fb96 [39m[32m200[39m [90m15 ms - 382[39m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;16m[AppiumDriver@deb4][0m Calling AppiumDriver.getStatus() with args: []
+[38;5;16m[AppiumDriver@deb4][0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.5.4"}}
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 110[39m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ec6a16df-0884-4049-8413-2bfe3133fb96/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Calling AppiumDriver.timeouts() with args: [null,null,null,null,60000,"ec6a16df-0884-4049-8413-2bfe3133fb96"]
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m W3C timeout argument: {"implicit":60000}}
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Set implicit wait to 60000ms
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Responding to client with driver.timeouts() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/ec6a16df-0884-4049-8413-2bfe3133fb96/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ec6a16df-0884-4049-8413-2bfe3133fb96/source[39m [90m{}[39m
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Matched '/wd/hub/session/ec6a16df-0884-4049-8413-2bfe3133fb96/source' to command name 'getPageSource'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Proxying [GET /wd/hub/session/ec6a16df-0884-4049-8413-2bfe3133fb96/source] to [GET http://127.0.0.1:57287/session/480da13f-a8f3-418a-8a49-bd744c805b21/source] with no body
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Got response with status 200: {"sessionId":"480da13f-a8f3-418a-8a49-bd744c805b21","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2172\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.google.android.calculator\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2400]\" displayed=\"true\">\r\n    <android.widget.FrameLayout index=\"0\" package=\"com.google.android.calculator\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][1080,2400]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" p...
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Replacing sessionId 480da13f-a8f3-418a-8a49-bd744c805b21 with ec6a16df-0884-4049-8413-2bfe3133fb96
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/ec6a16df-0884-4049-8413-2bfe3133fb96/source [39m[32m200[39m [90m1270 ms - 20111[39m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ec6a16df-0884-4049-8413-2bfe3133fb96/screenshot[39m [90m{}[39m
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Calling AppiumDriver.getScreenshot() with args: ["ec6a16df-0884-4049-8413-2bfe3133fb96"]
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Matched '/screenshot' to command name 'getScreenshot'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Proxying [GET /screenshot] to [GET http://127.0.0.1:57287/session/480da13f-a8f3-418a-8a49-bd744c805b21/screenshot] with no body
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Got response with status 200: {"sessionId":"480da13f-a8f3-418a-8a49-bd744c805b21","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFNnGwbwOwl74wLBAcoQXDhxoSKoIHVr3QWrtdqKq+7Zaq1auxyt1lHxc7RW6x64t624cCEibkVQFNmbfH9EjgkJO4zg/bsuryvj5JwXGcm5z/M+r6h9Y3spiIiIiIiIiIg0mLisB0BEREREREREVFwMOIiIiIiIiIhI4zHgICIiIiIiIiKNx4CDiIiIiIiIiDQeAw4iIiIiIiIi0ngMOIiIiIiIiIhI4zHgICIiIiIiIiKNx4CDiIiIiIiIiDQeAw4iIiIiIiIi0ngMOIiIiIiIiIhI4zHgICIiIiIiIiKNx4CDiIiIiIiIiDQeAw4iIiIiIiIi0ngMOIiIiIiIiIhI4zHgICIiIiIiIiKNx4CDiIiIiIiIiDQeAw4iIiIiIiIi0ngMOIiIiIiIiIhI4zHgICIiIiIiIiKNx4CDiIiIiIiIiDQeAw4iIiIiIiIi0ngMOIiIiIiIiIhI4zHgICIiIiIiIiKNx4CDiIiIiIiIiDQeAw4iIiIiIiIi0ngMOIiIiIiIiIhI4zHgICIiIiIiIiKNx4CDiIiIiIiIiDQeAw4iIiIiIiIi0ngMOIiIiIiIiIhI4zHgICIiIiIiIiKNx4CDiIiIiIiIiDQeAw4iIiIiIiIi0ngMOIiIiIiIiIhI4zHgICIiIiIqRcNH+2PbwZM4HRyG9dv2wM3ds6yHRERUIYjaN7aXlvUgiIiIiIg+BMNH+8NvtD/Cw0IRfPkivHv0gaGRMQZ0c0dkxPOyHp7AwNAQG7bvh6WVNQDgt58WY9v//ijQa5u0aIVBviNRr0FDGBmbIDEhAc8eP8TWgLU4e+Io+g3xhf+UWfnu5+a1Kxg7fFCxvg4i+rBolfUAiCoK...
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFNnGwbwOwl74wLBAcoQXDhxoSKoIHVr3QWrtdqKq+7Zaq1auxyt1lHxc7RW6x64t624cCEibkVQFNmbfH9EjgkJO4zg/bsuryvj5JwXGcm5z/M+r6h9Y3spiIiIiIiIiIg0mLisB0BEREREREREVFwMOIiIiIiIiIhI4zHgICIiIiIiIiKNx4CDiIiIiIiIiDQeAw4iIiIiIiIi0ngMOIiIiIiIiIhI4zHgICIiIiIiIiKNx4CDiIiIiIiIiDQeAw4iIiIiIiIi0ngMOIiIiIiIiIhI4zHgICIiIiIiIiKNx4CDiIiIiIiIiDQeAw4iIiIiIiIi0ngMOIiIiIiIiIhI4zHgICIiIiIiIiKNx4CDiIiIiIiIiDQeAw4iIiIiIiIi0ngMOIiIiIiIiIhI4zHgICIiIiIiIiKNx4CDiIiIiIiIiDQeAw4iIiIiIiIi0ngMOIiIiIiIiIhI4zHgICIiIiIiIiKNx4CDiIiIiIiIiDQeAw4iIiIiIiIi0ngMOIiIiIiIiIhI4zHgICIiIiIiIiKNx4CDiIiIiIiIiDQeAw4iIiIiIiIi0ngMOIiIiIiIiIhI4zHgICIiIiIiIiKNx4CDiIiIiIiIiDQeAw4iIiIiIiIi0ngMOIiIiIiIiIhI4zHgICIiIiIqRcNH+2PbwZM4HRyG9dv2wM3ds6yHRERUIYjaN7aXlvUgiIiIiIg+BMNH+8NvtD/Cw0IRfPkivHv0gaGRMQZ0c0dkxPOyHp7AwNAQG7bvh6WVNQDgt58WY9v//ijQa5u0aIVBviNRr0FDGBmbIDEhAc8eP8TWgLU4e+Io+g3xhf+UWfnu5+a1Kxg7fFCxvg4i+rBolfUAiCoKkUgEqVQKPT192NdzgnnlKhCJRHjzOhr3QkOQkpwsbENEREQfJu+efQAAsyaM...
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/ec6a16df-0884-4049-8413-2bfe3133fb96/screenshot [39m[32m200[39m [90m472 ms - 176652[39m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/ec6a16df-0884-4049-8413-2bfe3133fb96[39m [90m{}[39m
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Calling AppiumDriver.deleteSession() with args: ["ec6a16df-0884-4049-8413-2bfe3133fb96"]
+[38;5;16m[AppiumDriver@deb4][0m Event 'quitSessionRequested' logged at 1720796330688 (21:58:50 GMT+0700 (Western Indonesia Time))
+[38;5;16m[AppiumDriver@deb4][0m Removing session ec6a16df-0884-4049-8413-2bfe3133fb96 from our master session list
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Deleting UiAutomator2 session
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Deleting UiAutomator2 server session
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Matched '/' to command name 'deleteSession'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Proxying [DELETE /] to [DELETE http://127.0.0.1:57287/session/480da13f-a8f3-418a-8a49-bd744c805b21] with no body
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Got response with status 200: {"sessionId":"480da13f-a8f3-418a-8a49-bd744c805b21","value":null}
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m [Instrumentation] The process has exited with code null, signal SIGTERM
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+[38;5;80m[Logcat][0m Stopping logcat capture
+[38;5;64m[ADB][0m Removing forwarded port socket connection: 57287 
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 forward --remove tcp:57287'
+[38;5;48m[AndroidUiautomator2Driver@4c07][0m Restoring hidden api policy to the device default configuration
+[38;5;64m[ADB][0m Running 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\platform-tools\adb.exe -P 5037 -s 102682537E009728 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[38;5;16m[AppiumDriver@deb4][0m Event 'quitSessionFinished' logged at 1720796330922 (21:58:50 GMT+0700 (Western Indonesia Time))
+[38;5;16m[AppiumDriver@deb4][0m Received response: null
+[38;5;16m[AppiumDriver@deb4][0m But deleting session, so not returning
+[38;5;16m[AppiumDriver@deb4][0m Responding to client with driver.deleteSession() result: null
+[38;5;0m[HTTP][0m [37m<-- DELETE /wd/hub/session/ec6a16df-0884-4049-8413-2bfe3133fb96 [39m[32m200[39m [90m237 ms - 14[39m [90m[39m
